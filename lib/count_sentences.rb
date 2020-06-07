@@ -17,7 +17,7 @@ class String
   def count_sentences
   sentence = 0
   array = self.split
-  array
+  array.each do |phrase|
   binding.pry
   # sentence += 1 if self.sentence? || self.exclamation? || self.question?
   end
