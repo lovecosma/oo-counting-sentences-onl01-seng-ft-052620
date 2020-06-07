@@ -17,7 +17,7 @@ class String
   def count_sentences
     sentence = 0
     self.split.each do |sentence|
-      sentence
+      sentence += 1 if sentence.sentence?
     end
     binding.pry
   end
