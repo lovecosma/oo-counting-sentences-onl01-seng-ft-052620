@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-  @string = string
+  self.end_with?(".")
   binding.pry
   end
 
