@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     sentence = 0
-    if
+    if self.sentence?
     else
     else
     else
