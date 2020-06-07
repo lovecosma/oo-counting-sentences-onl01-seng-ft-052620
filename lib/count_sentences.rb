@@ -19,7 +19,7 @@ class String
   array = self.split
   array.each do |phrase|
   sentence += 1 if self.sentence? || self.exclamation? || self.question?
-  end  
+  end
   end
   binding.pry
 end
