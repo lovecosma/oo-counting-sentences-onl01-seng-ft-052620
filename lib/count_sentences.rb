@@ -17,7 +17,7 @@ class String
   def count_sentences
     self.split.each do |sentence|
       
-    end 
+    end
     binding.pry
   end
 end
