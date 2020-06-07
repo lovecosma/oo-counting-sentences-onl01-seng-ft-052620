@@ -19,6 +19,6 @@ class String
     self.split.each do |sentence|
       sentence += 1 if sentence.sentence?
     end
-    binding.pry
+    # binding.pry
   end
 end
