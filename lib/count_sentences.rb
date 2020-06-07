@@ -17,6 +17,7 @@ class String
   def count_sentences
     sentence = 0
     if self.inlcude?(".")
+      sentence += 1
     binding.pry
   end
 end
