@@ -17,8 +17,11 @@ class String
   def count_sentences
     sentence = 0
     if self.sentence?
-    else
-    else
+    sentence += 1
+    elsif self.question?
+        sentence += 1
+    elsif self.exclamation?
+        sentence += 1  
     else
     end
     # binding.pry
