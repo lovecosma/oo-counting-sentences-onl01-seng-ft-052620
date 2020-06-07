@@ -4,7 +4,7 @@ class String
 
   def sentence?(string)
   @string = string
-  
+  binding.pry
   end
 
   def question?
