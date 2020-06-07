@@ -15,6 +15,8 @@ class String
   end
 
   def count_sentences
-  sentence = 0  
+  sentence = 0
+  array = self.split
+  # sentence += 1 if self.sentence? || self.exclamation? || self.question?  
   end
 end
