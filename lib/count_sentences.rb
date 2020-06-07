@@ -16,7 +16,11 @@ class String
 
   def count_sentences
     sentence = 0
-    
+    if
+    else
+    else
+    else
+    end
     # binding.pry
   end
 end
