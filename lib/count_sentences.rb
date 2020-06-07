@@ -18,6 +18,7 @@ class String
     sentence = 0
     if self.inlcude?(".")
       sentence += 1
+    end 
     binding.pry
   end
 end
