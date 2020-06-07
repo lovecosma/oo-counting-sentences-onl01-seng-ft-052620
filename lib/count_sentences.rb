@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     sentence = 0
-    self.split
+    if self.inlcude?(".")
     binding.pry
   end
 end
