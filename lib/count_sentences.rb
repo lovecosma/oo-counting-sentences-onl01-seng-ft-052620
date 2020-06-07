@@ -4,6 +4,7 @@ class String
 
   def sentence?(string)
   @string = string 
+  
   end
 
   def question?
