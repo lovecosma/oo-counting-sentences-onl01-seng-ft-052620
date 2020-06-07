@@ -18,7 +18,7 @@ class String
     sentence = 0
     if self.include?(".")
       sentence += 1
-    end 
+    end
     binding.pry
   end
 end
