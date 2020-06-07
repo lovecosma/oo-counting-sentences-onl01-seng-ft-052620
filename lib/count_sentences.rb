@@ -19,6 +19,6 @@ class String
     if self.include?(".")
       sentence += 1
     end
-    binding.pry
+    # binding.pry
   end
 end
