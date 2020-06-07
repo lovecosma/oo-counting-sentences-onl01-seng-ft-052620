@@ -18,7 +18,7 @@ class String
   sentence = 0
   array = self.split
   array.each do |phrase|
-  phrase += 1 if self.sentence? || self.exclamation? || self.question?
+  sentence += 1 if phrase.sentence? || phrase.exclamation? || phrase.question?
   end
   sentence
   end
