@@ -18,8 +18,8 @@ class String
   sentence = 0
   array = self.split
   array.each do |phrase|
+  sentence += 1 if self.sentence? || self.exclamation? || self.question?
+  end  
   end
   binding.pry
-  # sentence += 1 if self.sentence? || self.exclamation? || self.question?
-  end
 end
