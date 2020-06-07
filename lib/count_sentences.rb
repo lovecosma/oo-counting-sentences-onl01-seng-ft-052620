@@ -19,6 +19,5 @@ class String
     self.split.each do |sentence|
       sentence += 1 if sentence.sentence?
     end
-
   end
 end
