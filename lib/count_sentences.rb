@@ -16,7 +16,7 @@ class String
 
   def count_sentences
   sentence = 0
-  if self.sentence?
+  if self.split.sentence?
     sentence += 1
   end
   sentence
